@@ -1,0 +1,48 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #F7F7F7;
+  padding-bottom: 40px;
+}
+.leftSize{
+  display: flex;
+  align-items: center;
+}
+h1{
+  /*font-family: 'Proxima Nova';*/
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #181818;
+}
+.title{
+  color: #7B7B7B;
+}
+.addToBtn{
+  width: 150px;
+  height: 50px;
+  left: 1197px;
+  top: 95px;
+  background: #FE5F1E;
+  border-radius: 30px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  padding: 0 20px;
+}
+.line{
+  width: 1px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.25);
+}
+.basket{
+  display: flex;
+}
+.count{
+  margin-left: 8px;}
