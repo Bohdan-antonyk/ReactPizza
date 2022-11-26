@@ -1,14 +1,17 @@
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
-.leftSide{
+
+.leftSide {
     display: flex;
     align-items: center;
     padding: 40px 0 32px 0;
 }
-.filter{
+
+.filter {
     font-weight: 700;
     background: #F9F9F9;
     border-radius: 30px;
@@ -20,10 +23,12 @@
     color: #2C2C2C;
     margin: 0 8px;
 }
-.filter:nth-child(1){
+
+.filter:nth-child(1) {
     margin-left: 0;
 }
-.active{
+
+.active {
     background: #282828;
     color: #FFFFFF;
     font-weight: 700;
@@ -35,12 +40,14 @@
     padding: 14px 30px 17px 30px;
     margin: 0 8px;
 }
-.rightSide{
+
+.rightSide {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sortText{
+
+.sortText {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -48,7 +55,8 @@
     color: #2C2C2C;
     margin-left: 8px;
 }
-.orangeText{
+
+.orangeText {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -56,4 +64,38 @@
     color: #FE5F1E;
     border-bottom: 1px dashed #FE5F1E;
     margin-left: 8px;
+}
+.listToFilter{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    width: 132px;
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    justify-content: space-around;
+    z-index: 1;
+    padding: 13px 0;
+}
+li{
+    /*width: 100%;*/
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 14px;
+    width: 118px;
+
+}
+.activeLink{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    color: #FE5F1E;
+    background-color: rgba(254, 95, 30, 0.05);
 }

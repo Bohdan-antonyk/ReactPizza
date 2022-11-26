@@ -1,0 +1,109 @@
+.wrapper {
+    width: 280px;
+    min-height: 300px;
+    margin: 0 15px 65px 15px;
+}
+
+.wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pizzaMenu {
+    display: flex;
+    flex-wrap: wrap;
+    background: #F3F3F3;
+    border-radius: 10px;
+}
+
+.pizzaMenu li {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    margin: 6px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 22px;
+}
+
+.activePizzaList {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+.pizzaMenu li:nth-child(1), .pizzaMenu li:nth-child(2) {
+    width: 45%;
+    height: 32px;
+}
+
+.pizzaMenu li:nth-child(3), .pizzaMenu li:nth-child(4), .pizzaMenu li:nth-child(5) {
+    width: 28%;
+    height: 32px;
+    margin-top: 0;
+}
+
+.buttonPizza {
+    display: flex;
+    margin-top: 17px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+}
+
+.basketPizzaCard {
+    background-color: #FFFFFF;
+    border: 1px solid #EB5A1E;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.add {
+    color: #EB5A1E;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.addText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 8px;
+    color: #EB5A1E;
+}
+
+.addCount {
+    display: none;
+}
+
+.addCount{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    background-color: #EB5A1E;
+    color: #FFFFFF;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
