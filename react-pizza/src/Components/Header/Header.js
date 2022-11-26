@@ -6,7 +6,7 @@ function Header() {
                 <img src="../../img/Logo.png" alt="Logo"/>
                 <div  style={{marginLeft:"17px"}}>
                     <h1>REACT PIZZA</h1>
-                    <div className={styles.title}>самая вкусная пицца во вселенной</div>
+                    <div className={styles.title}>Сама смачна піцца у світі</div>
                 </div>
             </div>
             <button className={styles.addToBtn}>
